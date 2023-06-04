@@ -1,18 +1,34 @@
-.hall {
-    background-image: url("../img/hall_background.png");
+.halls {
+    background-image: url("../img/halls_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.halls_wrapper {
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.main-hall, .vip-hall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .hall_title {
     text-align: center;
-    padding-top: 50px;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 15px;
     text-shadow:
     0 0 1px #fff,
     0 0 2px #fff,
@@ -24,20 +40,28 @@
     0 0 80px rgba(255, 255, 255, 0.5);
 }
 
-.hall-content {
+.hall_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 230px;
-    margin-left: 325px;
-    width: 1400px;
 }
 
-.hall-content_text {
+.hall_img {
+    width: 300px;
+    height: 300px;
+    filter: grayscale(100%);
+}
+
+.hall_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.hall_text {
     color: #fff;
-    font-size: 40px;
+    margin-left: 10px;
+    font-size: 26px;
     text-transform: uppercase;
-    text-align: center;
     text-shadow:
     0 0 1px #fff,
     0 0 2px #fff,

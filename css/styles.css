@@ -1,6 +1,9 @@
 @import url("./main.css");
-@import url("./hall.css");
+@import url("./advantages.css");
 @import url("./features.css");
+@import url("./halls.css");
+@import url("./rates.css");
+@import url("./contacts.css");
 
 * {
     margin: 0;
