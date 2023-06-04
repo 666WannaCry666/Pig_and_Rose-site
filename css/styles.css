@@ -1,0 +1,14 @@
+@import url("./main.css");
+@import url("./hall.css");
+@import url("./features.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
